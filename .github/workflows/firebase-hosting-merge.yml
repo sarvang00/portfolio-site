@@ -18,3 +18,6 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SDAVE_PROFILE }}'
           channelId: live
           projectId: sdave-profile
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
+      
